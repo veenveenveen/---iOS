@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90A026971C93A88F00ECBCFF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90A026961C93A88F00ECBCFF /* main.c */; };
+		90A026A51C93C33D00ECBCFF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90A026A41C93C33D00ECBCFF /* main.c */; };
+		90A026B01C93E71500ECBCFF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90A026AF1C93E71500ECBCFF /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90A026911C93A88F00ECBCFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		90A026A01C93C33D00ECBCFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		90A026AB1C93E71500ECBCFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		90A026931C93A88F00ECBCFF /* 文件操作--保存键盘输入的字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "文件操作--保存键盘输入的字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A026961C93A88F00ECBCFF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		90A0269D1C93BB8E00ECBCFF /* inputString.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = inputString.txt; sourceTree = "<group>"; };
+		90A026A21C93C33D00ECBCFF /* 从文件中读写结构体信息 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "从文件中读写结构体信息"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A026A41C93C33D00ECBCFF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		90A026AD1C93E71500ECBCFF /* 读取和写入一个二维数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "读取和写入一个二维数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A026AF1C93E71500ECBCFF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90A026901C93A88F00ECBCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A0269F1C93C33D00ECBCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A026AA1C93E71500ECBCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90A0268A1C93A88F00ECBCFF = {
+			isa = PBXGroup;
+			children = (
+				90A026951C93A88F00ECBCFF /* 文件操作--保存键盘输入的字符串 */,
+				90A026A31C93C33D00ECBCFF /* 从文件中读写结构体信息 */,
+				90A026AE1C93E71500ECBCFF /* 读取和写入一个二维数组 */,
+				90A026941C93A88F00ECBCFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90A026941C93A88F00ECBCFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90A026931C93A88F00ECBCFF /* 文件操作--保存键盘输入的字符串 */,
+				90A026A21C93C33D00ECBCFF /* 从文件中读写结构体信息 */,
+				90A026AD1C93E71500ECBCFF /* 读取和写入一个二维数组 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90A026951C93A88F00ECBCFF /* 文件操作--保存键盘输入的字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				90A026961C93A88F00ECBCFF /* main.c */,
+				90A0269D1C93BB8E00ECBCFF /* inputString.txt */,
+			);
+			path = "文件操作--保存键盘输入的字符串";
+			sourceTree = "<group>";
+		};
+		90A026A31C93C33D00ECBCFF /* 从文件中读写结构体信息 */ = {
+			isa = PBXGroup;
+			children = (
+				90A026A41C93C33D00ECBCFF /* main.c */,
+			);
+			path = "从文件中读写结构体信息";
+			sourceTree = "<group>";
+		};
+		90A026AE1C93E71500ECBCFF /* 读取和写入一个二维数组 */ = {
+			isa = PBXGroup;
+			children = (
+				90A026AF1C93E71500ECBCFF /* main.c */,
+			);
+			path = "读取和写入一个二维数组";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90A026921C93A88F00ECBCFF /* 文件操作--保存键盘输入的字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A0269A1C93A88F00ECBCFF /* Build configuration list for PBXNativeTarget "文件操作--保存键盘输入的字符串" */;
+			buildPhases = (
+				90A0268F1C93A88F00ECBCFF /* Sources */,
+				90A026901C93A88F00ECBCFF /* Frameworks */,
+				90A026911C93A88F00ECBCFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "文件操作--保存键盘输入的字符串";
+			productName = "文件操作--保存键盘输入的字符串";
+			productReference = 90A026931C93A88F00ECBCFF /* 文件操作--保存键盘输入的字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
+		90A026A11C93C33D00ECBCFF /* 从文件中读写结构体信息 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A026A61C93C33D00ECBCFF /* Build configuration list for PBXNativeTarget "从文件中读写结构体信息" */;
+			buildPhases = (
+				90A0269E1C93C33D00ECBCFF /* Sources */,
+				90A0269F1C93C33D00ECBCFF /* Frameworks */,
+				90A026A01C93C33D00ECBCFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "从文件中读写结构体信息";
+			productName = "从文件中读写结构体信息";
+			productReference = 90A026A21C93C33D00ECBCFF /* 从文件中读写结构体信息 */;
+			productType = "com.apple.product-type.tool";
+		};
+		90A026AC1C93E71500ECBCFF /* 读取和写入一个二维数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A026B11C93E71500ECBCFF /* Build configuration list for PBXNativeTarget "读取和写入一个二维数组" */;
+			buildPhases = (
+				90A026A91C93E71500ECBCFF /* Sources */,
+				90A026AA1C93E71500ECBCFF /* Frameworks */,
+				90A026AB1C93E71500ECBCFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "读取和写入一个二维数组";
+			productName = "读取和写入一个二维数组";
+			productReference = 90A026AD1C93E71500ECBCFF /* 读取和写入一个二维数组 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90A0268B1C93A88F00ECBCFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "黄启明";
+				TargetAttributes = {
+					90A026921C93A88F00ECBCFF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					90A026A11C93C33D00ECBCFF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					90A026AC1C93E71500ECBCFF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 90A0268E1C93A88F00ECBCFF /* Build configuration list for PBXProject "文件操作--保存键盘输入的字符串" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90A0268A1C93A88F00ECBCFF;
+			productRefGroup = 90A026941C93A88F00ECBCFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90A026921C93A88F00ECBCFF /* 文件操作--保存键盘输入的字符串 */,
+				90A026A11C93C33D00ECBCFF /* 从文件中读写结构体信息 */,
+				90A026AC1C93E71500ECBCFF /* 读取和写入一个二维数组 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90A0268F1C93A88F00ECBCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A026971C93A88F00ECBCFF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A0269E1C93C33D00ECBCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A026A51C93C33D00ECBCFF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A026A91C93E71500ECBCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A026B01C93E71500ECBCFF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90A026981C93A88F00ECBCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		90A026991C93A88F00ECBCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		90A0269B1C93A88F00ECBCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90A0269C1C93A88F00ECBCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90A026A71C93C33D00ECBCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90A026A81C93C33D00ECBCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90A026B21C93E71500ECBCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90A026B31C93E71500ECBCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90A0268E1C93A88F00ECBCFF /* Build configuration list for PBXProject "文件操作--保存键盘输入的字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A026981C93A88F00ECBCFF /* Debug */,
+				90A026991C93A88F00ECBCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A0269A1C93A88F00ECBCFF /* Build configuration list for PBXNativeTarget "文件操作--保存键盘输入的字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A0269B1C93A88F00ECBCFF /* Debug */,
+				90A0269C1C93A88F00ECBCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90A026A61C93C33D00ECBCFF /* Build configuration list for PBXNativeTarget "从文件中读写结构体信息" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A026A71C93C33D00ECBCFF /* Debug */,
+				90A026A81C93C33D00ECBCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90A026B11C93E71500ECBCFF /* Build configuration list for PBXNativeTarget "读取和写入一个二维数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A026B21C93E71500ECBCFF /* Debug */,
+				90A026B31C93E71500ECBCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90A0268B1C93A88F00ECBCFF /* Project object */;
+}

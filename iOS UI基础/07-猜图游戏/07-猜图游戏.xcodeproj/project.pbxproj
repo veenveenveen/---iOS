@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900B00141CB9EA17008A7107 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 900B00131CB9EA17008A7107 /* questions.plist */; };
+		900B00171CB9FC05008A7107 /* questionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 900B00161CB9FC05008A7107 /* questionModel.m */; };
+		908672711CB92D40008606BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 908672701CB92D40008606BC /* main.m */; };
+		908672741CB92D40008606BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 908672731CB92D40008606BC /* AppDelegate.m */; };
+		908672771CB92D40008606BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908672761CB92D40008606BC /* ViewController.m */; };
+		9086727A1CB92D40008606BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908672781CB92D40008606BC /* Main.storyboard */; };
+		9086727C1CB92D40008606BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9086727B1CB92D40008606BC /* Assets.xcassets */; };
+		9086727F1CB92D40008606BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9086727D1CB92D40008606BC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900B00131CB9EA17008A7107 /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		900B00151CB9FC05008A7107 /* questionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = questionModel.h; sourceTree = "<group>"; };
+		900B00161CB9FC05008A7107 /* questionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = questionModel.m; sourceTree = "<group>"; };
+		9086726C1CB92D40008606BC /* 07-猜图游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-猜图游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908672701CB92D40008606BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		908672721CB92D40008606BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		908672731CB92D40008606BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		908672751CB92D40008606BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		908672761CB92D40008606BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		908672791CB92D40008606BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9086727B1CB92D40008606BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9086727E1CB92D40008606BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		908672801CB92D40008606BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		908672691CB92D40008606BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		908672631CB92D40008606BC = {
+			isa = PBXGroup;
+			children = (
+				9086726E1CB92D40008606BC /* 07-猜图游戏 */,
+				9086726D1CB92D40008606BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9086726D1CB92D40008606BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9086726C1CB92D40008606BC /* 07-猜图游戏.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9086726E1CB92D40008606BC /* 07-猜图游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				908672721CB92D40008606BC /* AppDelegate.h */,
+				908672731CB92D40008606BC /* AppDelegate.m */,
+				908672751CB92D40008606BC /* ViewController.h */,
+				908672761CB92D40008606BC /* ViewController.m */,
+				908672781CB92D40008606BC /* Main.storyboard */,
+				9086727B1CB92D40008606BC /* Assets.xcassets */,
+				9086727D1CB92D40008606BC /* LaunchScreen.storyboard */,
+				900B00151CB9FC05008A7107 /* questionModel.h */,
+				900B00161CB9FC05008A7107 /* questionModel.m */,
+				908672801CB92D40008606BC /* Info.plist */,
+				900B00131CB9EA17008A7107 /* questions.plist */,
+				9086726F1CB92D40008606BC /* Supporting Files */,
+			);
+			path = "07-猜图游戏";
+			sourceTree = "<group>";
+		};
+		9086726F1CB92D40008606BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				908672701CB92D40008606BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9086726B1CB92D40008606BC /* 07-猜图游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908672831CB92D40008606BC /* Build configuration list for PBXNativeTarget "07-猜图游戏" */;
+			buildPhases = (
+				908672681CB92D40008606BC /* Sources */,
+				908672691CB92D40008606BC /* Frameworks */,
+				9086726A1CB92D40008606BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-猜图游戏";
+			productName = "07-猜图游戏";
+			productReference = 9086726C1CB92D40008606BC /* 07-猜图游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		908672641CB92D40008606BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = IOS;
+				TargetAttributes = {
+					9086726B1CB92D40008606BC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CWT6FLBDWF;
+					};
+				};
+			};
+			buildConfigurationList = 908672671CB92D40008606BC /* Build configuration list for PBXProject "07-猜图游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 908672631CB92D40008606BC;
+			productRefGroup = 9086726D1CB92D40008606BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9086726B1CB92D40008606BC /* 07-猜图游戏 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9086726A1CB92D40008606BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900B00141CB9EA17008A7107 /* questions.plist in Resources */,
+				9086727F1CB92D40008606BC /* LaunchScreen.storyboard in Resources */,
+				9086727C1CB92D40008606BC /* Assets.xcassets in Resources */,
+				9086727A1CB92D40008606BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		908672681CB92D40008606BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908672771CB92D40008606BC /* ViewController.m in Sources */,
+				908672741CB92D40008606BC /* AppDelegate.m in Sources */,
+				908672711CB92D40008606BC /* main.m in Sources */,
+				900B00171CB9FC05008A7107 /* questionModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		908672781CB92D40008606BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908672791CB92D40008606BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9086727D1CB92D40008606BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9086727E1CB92D40008606BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		908672811CB92D40008606BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		908672821CB92D40008606BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		908672841CB92D40008606BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "07-猜图游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.-7-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		908672851CB92D40008606BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "07-猜图游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.-7-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		908672671CB92D40008606BC /* Build configuration list for PBXProject "07-猜图游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908672811CB92D40008606BC /* Debug */,
+				908672821CB92D40008606BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908672831CB92D40008606BC /* Build configuration list for PBXNativeTarget "07-猜图游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908672841CB92D40008606BC /* Debug */,
+				908672851CB92D40008606BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 908672641CB92D40008606BC /* Project object */;
+}

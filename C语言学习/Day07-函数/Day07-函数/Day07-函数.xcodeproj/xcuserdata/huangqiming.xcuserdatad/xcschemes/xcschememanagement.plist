@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>九九乘法表.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>函数的基本使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>带参数的函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>90230CBF1C85D18E002C8DD2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90911EF91C86C63200741286</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90911F041C87140700741286</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90B5B8051C86B3410028B35C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

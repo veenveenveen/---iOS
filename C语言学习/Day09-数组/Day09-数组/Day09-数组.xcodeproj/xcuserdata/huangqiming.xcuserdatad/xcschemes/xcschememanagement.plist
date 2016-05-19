@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Day09-数组.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>冒泡排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>双色球的随机摇奖系统.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>数组与函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>求最大值.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>90C054C81C8973050008FCE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90C054D61C89A80B0008FCE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90C054E11C89B1890008FCE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90C054EC1C89B7590008FCE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90C054F71C89C02F0008FCE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

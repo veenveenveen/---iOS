@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9084E46C1C8AEFFD007DCBE9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9084E46B1C8AEFFD007DCBE9 /* main.c */; };
+		9084E4791C8AF818007DCBE9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9084E4781C8AF818007DCBE9 /* main.c */; };
+		9084E47F1C8AF8C0007DCBE9 /* hanShu.c in Sources */ = {isa = PBXBuildFile; fileRef = 9084E47D1C8AF8C0007DCBE9 /* hanShu.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9084E4661C8AEFFD007DCBE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9084E4741C8AF818007DCBE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9084E4681C8AEFFD007DCBE9 /* 斗地主的发牌系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "斗地主的发牌系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9084E46B1C8AEFFD007DCBE9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9084E4761C8AF818007DCBE9 /* 发牌系统简化 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "发牌系统简化"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9084E4781C8AF818007DCBE9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9084E47D1C8AF8C0007DCBE9 /* hanShu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hanShu.c; sourceTree = "<group>"; };
+		9084E47E1C8AF8C0007DCBE9 /* hanShu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hanShu.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9084E4651C8AEFFD007DCBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9084E4731C8AF818007DCBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9084E45F1C8AEFFD007DCBE9 = {
+			isa = PBXGroup;
+			children = (
+				9084E46A1C8AEFFD007DCBE9 /* 斗地主的发牌系统 */,
+				9084E4771C8AF818007DCBE9 /* 发牌系统简化 */,
+				9084E4691C8AEFFD007DCBE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9084E4691C8AEFFD007DCBE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9084E4681C8AEFFD007DCBE9 /* 斗地主的发牌系统 */,
+				9084E4761C8AF818007DCBE9 /* 发牌系统简化 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9084E46A1C8AEFFD007DCBE9 /* 斗地主的发牌系统 */ = {
+			isa = PBXGroup;
+			children = (
+				9084E46B1C8AEFFD007DCBE9 /* main.c */,
+			);
+			path = "斗地主的发牌系统";
+			sourceTree = "<group>";
+		};
+		9084E4771C8AF818007DCBE9 /* 发牌系统简化 */ = {
+			isa = PBXGroup;
+			children = (
+				9084E4781C8AF818007DCBE9 /* main.c */,
+				9084E47D1C8AF8C0007DCBE9 /* hanShu.c */,
+				9084E47E1C8AF8C0007DCBE9 /* hanShu.h */,
+			);
+			path = "发牌系统简化";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9084E4671C8AEFFD007DCBE9 /* 斗地主的发牌系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9084E46F1C8AEFFD007DCBE9 /* Build configuration list for PBXNativeTarget "斗地主的发牌系统" */;
+			buildPhases = (
+				9084E4641C8AEFFD007DCBE9 /* Sources */,
+				9084E4651C8AEFFD007DCBE9 /* Frameworks */,
+				9084E4661C8AEFFD007DCBE9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "斗地主的发牌系统";
+			productName = "斗地主的发牌系统";
+			productReference = 9084E4681C8AEFFD007DCBE9 /* 斗地主的发牌系统 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9084E4751C8AF818007DCBE9 /* 发牌系统简化 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9084E47A1C8AF818007DCBE9 /* Build configuration list for PBXNativeTarget "发牌系统简化" */;
+			buildPhases = (
+				9084E4721C8AF818007DCBE9 /* Sources */,
+				9084E4731C8AF818007DCBE9 /* Frameworks */,
+				9084E4741C8AF818007DCBE9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "发牌系统简化";
+			productName = "发牌系统简化";
+			productReference = 9084E4761C8AF818007DCBE9 /* 发牌系统简化 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9084E4601C8AEFFD007DCBE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "黄启明";
+				TargetAttributes = {
+					9084E4671C8AEFFD007DCBE9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9084E4751C8AF818007DCBE9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9084E4631C8AEFFD007DCBE9 /* Build configuration list for PBXProject "斗地主的发牌系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9084E45F1C8AEFFD007DCBE9;
+			productRefGroup = 9084E4691C8AEFFD007DCBE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9084E4671C8AEFFD007DCBE9 /* 斗地主的发牌系统 */,
+				9084E4751C8AF818007DCBE9 /* 发牌系统简化 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9084E4641C8AEFFD007DCBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9084E46C1C8AEFFD007DCBE9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9084E4721C8AF818007DCBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9084E47F1C8AF8C0007DCBE9 /* hanShu.c in Sources */,
+				9084E4791C8AF818007DCBE9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9084E46D1C8AEFFD007DCBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9084E46E1C8AEFFD007DCBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9084E4701C8AEFFD007DCBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9084E4711C8AEFFD007DCBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9084E47B1C8AF818007DCBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9084E47C1C8AF818007DCBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9084E4631C8AEFFD007DCBE9 /* Build configuration list for PBXProject "斗地主的发牌系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9084E46D1C8AEFFD007DCBE9 /* Debug */,
+				9084E46E1C8AEFFD007DCBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9084E46F1C8AEFFD007DCBE9 /* Build configuration list for PBXNativeTarget "斗地主的发牌系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9084E4701C8AEFFD007DCBE9 /* Debug */,
+				9084E4711C8AEFFD007DCBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9084E47A1C8AF818007DCBE9 /* Build configuration list for PBXNativeTarget "发牌系统简化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9084E47B1C8AF818007DCBE9 /* Debug */,
+				9084E47C1C8AF818007DCBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9084E4601C8AEFFD007DCBE9 /* Project object */;
+}

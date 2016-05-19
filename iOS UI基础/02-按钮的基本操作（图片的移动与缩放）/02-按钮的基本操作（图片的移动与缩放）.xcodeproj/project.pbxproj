@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904DC1211CB50FD600DB5C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 904DC1201CB50FD600DB5C23 /* main.m */; };
+		904DC1241CB50FD600DB5C23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 904DC1231CB50FD600DB5C23 /* AppDelegate.m */; };
+		904DC1271CB50FD600DB5C23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904DC1261CB50FD600DB5C23 /* ViewController.m */; };
+		904DC12A1CB50FD700DB5C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904DC1281CB50FD700DB5C23 /* Main.storyboard */; };
+		904DC12C1CB50FD700DB5C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904DC12B1CB50FD700DB5C23 /* Assets.xcassets */; };
+		904DC12F1CB50FD700DB5C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904DC12D1CB50FD700DB5C23 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		904DC11C1CB50FD600DB5C23 /* 02-按钮的基本操作（图片的移动与缩放）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-按钮的基本操作（图片的移动与缩放）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904DC1201CB50FD600DB5C23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		904DC1221CB50FD600DB5C23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		904DC1231CB50FD600DB5C23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		904DC1251CB50FD600DB5C23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		904DC1261CB50FD600DB5C23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		904DC1291CB50FD700DB5C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		904DC12B1CB50FD700DB5C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904DC12E1CB50FD700DB5C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		904DC1301CB50FD700DB5C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904DC1191CB50FD600DB5C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904DC1131CB50FD600DB5C23 = {
+			isa = PBXGroup;
+			children = (
+				904DC11E1CB50FD600DB5C23 /* 02-按钮的基本操作（图片的移动与缩放） */,
+				904DC11D1CB50FD600DB5C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904DC11D1CB50FD600DB5C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904DC11C1CB50FD600DB5C23 /* 02-按钮的基本操作（图片的移动与缩放）.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904DC11E1CB50FD600DB5C23 /* 02-按钮的基本操作（图片的移动与缩放） */ = {
+			isa = PBXGroup;
+			children = (
+				904DC1221CB50FD600DB5C23 /* AppDelegate.h */,
+				904DC1231CB50FD600DB5C23 /* AppDelegate.m */,
+				904DC1251CB50FD600DB5C23 /* ViewController.h */,
+				904DC1261CB50FD600DB5C23 /* ViewController.m */,
+				904DC1281CB50FD700DB5C23 /* Main.storyboard */,
+				904DC12B1CB50FD700DB5C23 /* Assets.xcassets */,
+				904DC12D1CB50FD700DB5C23 /* LaunchScreen.storyboard */,
+				904DC1301CB50FD700DB5C23 /* Info.plist */,
+				904DC11F1CB50FD600DB5C23 /* Supporting Files */,
+			);
+			path = "02-按钮的基本操作（图片的移动与缩放）";
+			sourceTree = "<group>";
+		};
+		904DC11F1CB50FD600DB5C23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				904DC1201CB50FD600DB5C23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904DC11B1CB50FD600DB5C23 /* 02-按钮的基本操作（图片的移动与缩放） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904DC1331CB50FD700DB5C23 /* Build configuration list for PBXNativeTarget "02-按钮的基本操作（图片的移动与缩放）" */;
+			buildPhases = (
+				904DC1181CB50FD600DB5C23 /* Sources */,
+				904DC1191CB50FD600DB5C23 /* Frameworks */,
+				904DC11A1CB50FD600DB5C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-按钮的基本操作（图片的移动与缩放）";
+			productName = "02-按钮的基本操作（图片的移动与缩放）";
+			productReference = 904DC11C1CB50FD600DB5C23 /* 02-按钮的基本操作（图片的移动与缩放）.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904DC1141CB50FD600DB5C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = IOS;
+				TargetAttributes = {
+					904DC11B1CB50FD600DB5C23 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 904DC1171CB50FD600DB5C23 /* Build configuration list for PBXProject "02-按钮的基本操作（图片的移动与缩放）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 904DC1131CB50FD600DB5C23;
+			productRefGroup = 904DC11D1CB50FD600DB5C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904DC11B1CB50FD600DB5C23 /* 02-按钮的基本操作（图片的移动与缩放） */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904DC11A1CB50FD600DB5C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904DC12F1CB50FD700DB5C23 /* LaunchScreen.storyboard in Resources */,
+				904DC12C1CB50FD700DB5C23 /* Assets.xcassets in Resources */,
+				904DC12A1CB50FD700DB5C23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904DC1181CB50FD600DB5C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904DC1271CB50FD600DB5C23 /* ViewController.m in Sources */,
+				904DC1241CB50FD600DB5C23 /* AppDelegate.m in Sources */,
+				904DC1211CB50FD600DB5C23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		904DC1281CB50FD700DB5C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904DC1291CB50FD700DB5C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		904DC12D1CB50FD700DB5C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904DC12E1CB50FD700DB5C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904DC1311CB50FD700DB5C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		904DC1321CB50FD700DB5C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904DC1341CB50FD700DB5C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-按钮的基本操作（图片的移动与缩放）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.-2------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		904DC1351CB50FD700DB5C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-按钮的基本操作（图片的移动与缩放）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.-2------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904DC1171CB50FD600DB5C23 /* Build configuration list for PBXProject "02-按钮的基本操作（图片的移动与缩放）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904DC1311CB50FD700DB5C23 /* Debug */,
+				904DC1321CB50FD700DB5C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904DC1331CB50FD700DB5C23 /* Build configuration list for PBXNativeTarget "02-按钮的基本操作（图片的移动与缩放）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904DC1341CB50FD700DB5C23 /* Debug */,
+				904DC1351CB50FD700DB5C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904DC1141CB50FD600DB5C23 /* Project object */;
+}

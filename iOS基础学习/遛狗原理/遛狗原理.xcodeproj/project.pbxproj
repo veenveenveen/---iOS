@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9080B33C1C8BF26F00627B7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080B33B1C8BF26F00627B7C /* main.m */; };
+		9080B3441C8BF2AD00627B7C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080B3431C8BF2AD00627B7C /* Person.m */; };
+		9080B3471C8BF2BF00627B7C /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080B3461C8BF2BF00627B7C /* Dog.m */; };
+		9080B34F1C8C283B00627B7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080B34E1C8C283B00627B7C /* main.m */; };
+		9080B3551C8C287C00627B7C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080B3541C8C287C00627B7C /* Person.m */; };
+		9080B3581C8C288C00627B7C /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080B3571C8C288C00627B7C /* Dog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9080B3361C8BF26F00627B7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9080B34A1C8C283B00627B7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9080B3381C8BF26F00627B7C /* 遛狗原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "遛狗原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9080B33B1C8BF26F00627B7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9080B3421C8BF2AD00627B7C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9080B3431C8BF2AD00627B7C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9080B3451C8BF2BF00627B7C /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		9080B3461C8BF2BF00627B7C /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		9080B34C1C8C283B00627B7C /* 改成点语法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "改成点语法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9080B34E1C8C283B00627B7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9080B3531C8C287C00627B7C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9080B3541C8C287C00627B7C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9080B3561C8C288C00627B7C /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		9080B3571C8C288C00627B7C /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9080B3351C8BF26F00627B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9080B3491C8C283B00627B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9080B32F1C8BF26F00627B7C = {
+			isa = PBXGroup;
+			children = (
+				9080B33A1C8BF26F00627B7C /* 遛狗原理 */,
+				9080B34D1C8C283B00627B7C /* 改成点语法 */,
+				9080B3391C8BF26F00627B7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9080B3391C8BF26F00627B7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9080B3381C8BF26F00627B7C /* 遛狗原理 */,
+				9080B34C1C8C283B00627B7C /* 改成点语法 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9080B33A1C8BF26F00627B7C /* 遛狗原理 */ = {
+			isa = PBXGroup;
+			children = (
+				9080B33B1C8BF26F00627B7C /* main.m */,
+				9080B3421C8BF2AD00627B7C /* Person.h */,
+				9080B3431C8BF2AD00627B7C /* Person.m */,
+				9080B3451C8BF2BF00627B7C /* Dog.h */,
+				9080B3461C8BF2BF00627B7C /* Dog.m */,
+			);
+			path = "遛狗原理";
+			sourceTree = "<group>";
+		};
+		9080B34D1C8C283B00627B7C /* 改成点语法 */ = {
+			isa = PBXGroup;
+			children = (
+				9080B34E1C8C283B00627B7C /* main.m */,
+				9080B3531C8C287C00627B7C /* Person.h */,
+				9080B3541C8C287C00627B7C /* Person.m */,
+				9080B3561C8C288C00627B7C /* Dog.h */,
+				9080B3571C8C288C00627B7C /* Dog.m */,
+			);
+			path = "改成点语法";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9080B3371C8BF26F00627B7C /* 遛狗原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9080B33F1C8BF26F00627B7C /* Build configuration list for PBXNativeTarget "遛狗原理" */;
+			buildPhases = (
+				9080B3341C8BF26F00627B7C /* Sources */,
+				9080B3351C8BF26F00627B7C /* Frameworks */,
+				9080B3361C8BF26F00627B7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "遛狗原理";
+			productName = "遛狗原理";
+			productReference = 9080B3381C8BF26F00627B7C /* 遛狗原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9080B34B1C8C283B00627B7C /* 改成点语法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9080B3501C8C283B00627B7C /* Build configuration list for PBXNativeTarget "改成点语法" */;
+			buildPhases = (
+				9080B3481C8C283B00627B7C /* Sources */,
+				9080B3491C8C283B00627B7C /* Frameworks */,
+				9080B34A1C8C283B00627B7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "改成点语法";
+			productName = "改成点语法";
+			productReference = 9080B34C1C8C283B00627B7C /* 改成点语法 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9080B3301C8BF26F00627B7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "黄启明";
+				TargetAttributes = {
+					9080B3371C8BF26F00627B7C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9080B34B1C8C283B00627B7C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9080B3331C8BF26F00627B7C /* Build configuration list for PBXProject "遛狗原理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9080B32F1C8BF26F00627B7C;
+			productRefGroup = 9080B3391C8BF26F00627B7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9080B3371C8BF26F00627B7C /* 遛狗原理 */,
+				9080B34B1C8C283B00627B7C /* 改成点语法 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9080B3341C8BF26F00627B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9080B3471C8BF2BF00627B7C /* Dog.m in Sources */,
+				9080B3441C8BF2AD00627B7C /* Person.m in Sources */,
+				9080B33C1C8BF26F00627B7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9080B3481C8C283B00627B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9080B3581C8C288C00627B7C /* Dog.m in Sources */,
+				9080B3551C8C287C00627B7C /* Person.m in Sources */,
+				9080B34F1C8C283B00627B7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9080B33D1C8BF26F00627B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9080B33E1C8BF26F00627B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9080B3401C8BF26F00627B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9080B3411C8BF26F00627B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9080B3511C8C283B00627B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9080B3521C8C283B00627B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9080B3331C8BF26F00627B7C /* Build configuration list for PBXProject "遛狗原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9080B33D1C8BF26F00627B7C /* Debug */,
+				9080B33E1C8BF26F00627B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9080B33F1C8BF26F00627B7C /* Build configuration list for PBXNativeTarget "遛狗原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9080B3401C8BF26F00627B7C /* Debug */,
+				9080B3411C8BF26F00627B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9080B3501C8C283B00627B7C /* Build configuration list for PBXNativeTarget "改成点语法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9080B3511C8C283B00627B7C /* Debug */,
+				9080B3521C8C283B00627B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9080B3301C8BF26F00627B7C /* Project object */;
+}
