@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="huq-2d-Xxq">
+                                <rect key="frame" x="0.0" y="20" width="600" height="540"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DRe-t3-Eof">
+                                <rect key="frame" x="10" y="565" width="520" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZE-ss-BIg">
+                                <rect key="frame" x="540" y="565" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="7aw-GW-fXZ"/>
+                                </constraints>
+                                <state key="normal" title="发送"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="huq-2d-Xxq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7RM-wj-ocA"/>
+                            <constraint firstItem="DRe-t3-Eof" firstAttribute="top" secondItem="huq-2d-Xxq" secondAttribute="bottom" constant="5" id="AIw-NV-sps"/>
+                            <constraint firstItem="JZE-ss-BIg" firstAttribute="leading" secondItem="DRe-t3-Eof" secondAttribute="trailing" constant="10" id="JTg-ZI-BGX"/>
+                            <constraint firstAttribute="trailing" secondItem="JZE-ss-BIg" secondAttribute="trailing" constant="10" id="M80-on-GGK"/>
+                            <constraint firstAttribute="trailing" secondItem="huq-2d-Xxq" secondAttribute="trailing" id="gcc-yr-L8V"/>
+                            <constraint firstItem="huq-2d-Xxq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="qyw-BG-GRw"/>
+                            <constraint firstAttribute="bottom" secondItem="DRe-t3-Eof" secondAttribute="bottom" constant="5" id="rbR-09-JZY"/>
+                            <constraint firstAttribute="bottom" secondItem="JZE-ss-BIg" secondAttribute="bottom" constant="5" id="ufk-Ev-gQW"/>
+                            <constraint firstItem="DRe-t3-Eof" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="zRw-0f-81G"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="huq-2d-Xxq" id="xZN-4d-PX6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

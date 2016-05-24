@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+@property (atomic, assign) int tickets;
 @property (nonatomic, strong) NSObject *obj;
 
 @end
@@ -19,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.tickets = 5;
     self.obj = [[NSObject alloc]init];
 }
 
@@ -28,7 +30,7 @@
 
 - (void)demo{
     
-    NSThread *thread1 = [[NSThread alloc] initWithTarget:self selector:@selector(sellTicket) object:nil];
+    NSThread *thread1   = [[NSThread alloc] initWithTarget:self selector:@selector(sellTicket) object:nil];
     thread1.name = @"-------->1";
     thread1.threadPriority = 0.0;
     [thread1 start];
@@ -41,9 +43,14 @@
 
 - (void)sellTicket{
     while (YES) {
-        [NSThread sleepForTimeInterval:1];
-        @synchronized (self) {
-            <#statements#>
+//        [NSThread sleepForTimeInterval:1];
+        @synchronized (self.obj) {
+            if (self.tickets > 0) {
+                self.tickets -= 1;
+                NSLog(@"%@,%d",[NSThread currentThread],self.tickets);
+                continue;
+            }
+            break;
         }
     }
 }
